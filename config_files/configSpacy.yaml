@@ -1,0 +1,202 @@
+supported_languages: 
+- es
+- en
+
+default_score_threshold: 0
+
+nlp_configuration:
+  nlp_engine_name: spacy
+  models:
+    -
+      lang_code: en
+      model_name: en_core_web_lg
+    -
+      lang_code: es
+      model_name: es_core_news_lg
+
+  ner_model_configuration:
+    model_to_presidio_entity_mapping:
+      PER: PERSON
+      PERSON: PERSON
+      LOC: LOCATION
+      LOCATION: LOCATION
+      GPE: LOCATION
+      DATE: DATE_TIME
+      TIME: DATE_TIME
+      AGE: AGE
+
+    low_confidence_score_multiplier: 0.4
+    low_score_entity_names:
+    - 
+    default_score: 0.85
+    labels_to_ignore:
+    - LOC
+    - LOCATION
+    - ORG
+    - ORGANIZATION
+
+recognizer_registry:
+  global_regex_flags: 26
+  recognizers: 
+  - name: UrlRecognizer
+    supported_languages: 
+      - es
+    supported_entity: URL
+    type: predefined
+    enabled: false
+
+  - name: DateRecognizer
+    supported_languages: 
+    - language: es
+      context: [naci, cumpleaños, nacimiento, fecha, día, aniversario, registro, documento, solicitud, expediente]
+    - language: en
+    supported_entity: DATE
+    type: predefined
+    enabled: true
+
+  - name : PhoneCustomRecognizer
+    patterns:
+    - name: Phone Number
+      regex: "\\b[6789]\\d{8}\\b"
+      score: 0.9
+    - name: Phone Number with Extension
+      regex: "\\b\\s(0034|\\+34)[6789]\\d{8}\\b"
+      score: 0.9
+    supported_entity: PHONE_NUMBER
+    supported_languages:
+      - language: es
+        context: [teléfono, contacto, número, fax, móvil, celular, llamar, llamada, linea, whatsapp, comunicarse]   
+    type: custom 
+    enabled: true
+
+  - name: MoneyCustomRecognizer
+    patterns:
+    - name: Money
+      regex: "(\\d{1,3}(\\.\\d{3})*|\\d+)(,\\d{1,2})?\\s?(\\u20AC|euros)"
+      score: 0.9
+    supported_entity: MONEY
+    supported_languages:
+      - language: es
+        context: [cobro, gano, salario, sueldo, nómina, presupuesto, €, tengo, al mes, al año, banco, ingreso, coste, precio, dinero, efectivo, pagar, paga]  
+    type: custom 
+    enabled: true  
+
+  - name: AgeCustomRecognizer
+    patterns:
+    - name: Age
+      regex: "(0|[1-9][0-9]?|1[01][0-9]|120)\\s*(a\\u00F1os|a\\u00F1os\\s*de\\s*edad|a\\u00F1o|a\\u00F1o\\s*de\\s*edad)"
+      score: 0.9
+    - name: Age in text
+      regex: "(cero|uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|trece|catorce|quince|dieciséis|diecisiete|dieciocho|diecinueve|veinte|veinti[uno|dos|tres|cuatro|cinco|seis|siete|ocho|nueve]|treinta|treinta y uno|treinta y dos|treinta y tres|treinta y cuatro|treinta y cinco|treinta y seis|treinta y siete|treinta y ocho|treinta y nueve|cuarenta|cuarenta y uno|cuarenta y dos|cuarenta y tres|cuarenta y cuatro|cuarenta y cinco|cuarenta y seis|cuarenta y siete|cuarenta y ocho|cuarenta y nueve|cincuenta|cincuenta y uno|cincuenta y dos|cincuenta y tres|cincuenta y cuatro|cincuenta y cinco|cincuenta y seis|cincuenta y siete|cincuenta y ocho|cincuenta y nueve|sesenta|sesenta y uno|sesenta y dos|sesenta y tres|sesenta y cuatro|sesenta y cinco|sesenta y seis|sesenta y siete|sesenta y ocho|sesenta y nueve|setenta|setenta y uno|setenta y dos|setenta y tres|setenta y cuatro|setenta y cinco|setenta y seis|setenta y siete|setenta y ocho|setenta y nueve|ochenta|ochenta y uno|ochenta y dos|ochenta y tres|ochenta y cuatro|ochenta y cinco|ochenta y seis|ochenta y siete|ochenta y ocho|ochenta y nueve|noventa|noventa y uno|noventa y dos|noventa y tres|noventa y cuatro|noventa y cinco|noventa y seis|noventa y siete|noventa y ocho|noventa y nueve|cien)\\s*(a\\u00F1os|a\\u00F1os\\s*de\\s*edad|a\\u00F1o|a\\u00F1o\\s*de\\s*edad)"
+      score: 0.9
+    supported_entity: AGE 
+    supported_languages:
+      - language: es
+        context: [tengo, cumplir, edad, naci, años, vivido, cumplir años, tener edad, a\\u00F1os, a\\u00F1o, anciano, joven, menor, mayor, infancia, adolescencia, adulto]  
+    type: custom 
+    enabled: true
+
+  - name: NIECustomRecognizer
+    patterns:
+    - name: DNIPattern
+      regex: "\\b\\d{8}[A-HJ-NP-TV-Za-hj-np-tv-z]\\b"
+      score: 0.9
+    - name: NIEPattern
+      regex: "\\b[XYZxyz]\\d{7}[A-Za-z]\\b"
+      score: 0.9
+    supported_entity: NIE
+    supported_languages:
+      - language: es
+        context: [DNI, dni, numero, número, documento, identidad, identificador]  
+    type: custom 
+    enabled: true    
+
+  - name: EmailCustomRecognizer
+    patterns:
+    - name: EmailPattern
+      regex: "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+      score: 0.9
+    supported_entity: EMAIL
+    supported_languages:
+      - language: es
+        context: [email, correo, correo electrónico, direccion, dirección, cuenta, e-mail, buzón, contacto]  
+    type: custom 
+    enabled: true  
+
+  - name: IBANCustomRecognizer
+    patterns:
+    - name: IBANPattern 
+      regex: "\\b[A-Za-z]{2}\\d{2}[A-Za-z0-9]{1,30}\\b"
+      score: 0.9
+    supported_entity: IBAN
+    supported_languages:
+      - language: es
+        context: [iban, IBAN, cuenta, bancaria, número, banco, transferencia, entidad, ingreso, pago, ahorro]  
+    type: custom 
+    enabled: true
+
+  - name: CreditCardCustomRecognizer
+    patterns:
+    - name: VISAPattern
+      regex: "\\b4[0-9]{12}(?:[0-9]{3})?\\b"
+      score: 0.9
+    - name: MasterCardPattern
+      regex: "\\b5[1-5][0-9]{14}\\b"
+      score: 0.9
+    - name: AmericanExpressPattern
+      regex: "\\b3[47][0-9]{13}\\b"
+      score: 0.9
+    - name: DiscoverPattern
+      regex: "\\b6(?:011|5[0-9]{2})[0-9]{12}\\b"
+      score: 0.9
+    - name: DinnersClubPattern
+      regex: "\\b3(?:0[0-5]|[68][0-9])[0-9]{11}\\b"
+      score: 0.9
+    - name: JCBPattern
+      regex: "\\b(?:2131|1800|35\\d{3})\\d{11}\\b"
+      score: 0.9
+    supported_entity: CREDIT_CARD
+    supported_languages:
+      - language: es
+        context: [tarjeta, tarjeta de crédito, tarjeta de débito, credito, débito, número, pago, visa, mastercard, american express, discover,diners club,bancaria,JCB,jcb,cuenta] 
+    type: custom 
+    enabled: true  
+  
+  - name: IPCustomRecognizer
+    patterns:
+    - name: IPV4Pattern
+      regex: "\\b(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"
+      score: 0.9
+    - name: IPV6Pattern
+      regex: "\\b(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}\\b"
+      score: 0.9
+    supported_entity: IP
+    supported_languages:
+      - language: es
+        context: [ip, direccion, dirección, IP, red, conexión, host, servidor]
+    type: custom 
+    enabled: true
+      
+  - name: NIFCustomRecognizer
+    patterns:
+    - name: NIFPattern
+      regex: "\\b([A-HJ-NP-SU-ZVa-hj-np-su-zv])\\d{8}\\b"
+      score: 0.9
+    - name: NIFPattern with CheckSum
+      regex: "\\b([A-HJ-NP-SU-ZVa-hj-np-su-zv])\\d{8}[A-Za-z]\\b"
+      score: 0.9
+    supported_entity: NIF
+    supported_languages:
+      - language: es
+        context: [CIF,cif,nif,NIF,identificación fiscal, empresa, código fiscal, número de identificación, entidad, sociedad, corporación, empresa, S.A., S.L., identificador de entidad] 
+    type: custom 
+    enabled: true  
+
+
+
+
+
+
+  
+ 
+

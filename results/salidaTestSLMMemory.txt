@@ -1,0 +1,151 @@
+Prueba de Rendimiento del SLM Qwen2.5 test Memoria. Prueba de Rendimiento del SLM Qwen2.5 test Memoria. 
+Iteracion 1:  
+Mensaje de entrada:Hola me llamo Julian ||   
+Salida Aleatorizacion:Hola me llamo Carlos ||  
+Salida del ChatBot:¡Hola Carlos! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? ||   
+Salida Desaleatorizacion:¡Hola Julian! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? 
+Iteracion 2:  
+Mensaje de entrada:Mi novia se llama Patricia ||   
+Salida Aleatorizacion:Mi novia se llama Sofía ||  
+Salida del ChatBot:¡Qué bien! ¿Hay algo en particular que te gustaría compartir o preguntar sobre Sofía? Estoy aquí para ayudarte. ||   
+Salida Desaleatorizacion:¡Qué bien! ¿Hay algo en particular que te gustaría compartir o preguntar sobre Patricia? Estoy aquí para ayudarte. 
+Iteracion 3:  
+Mensaje de entrada:mi abuela es una señora de 85 años,llamada Ana ||   
+Salida Aleatorizacion:Mi abuela es una señora de 83 años, llamada Mara ||  
+Salida del ChatBot:Parece que tienes una familia encantadora, Carlos. ¿Hay algo específico sobre tu abuela Mara que te gustaría compartir o alguna pregunta que tengas en mente? Estoy aquí para escuchar y ayudar en lo que necesites. ||   
+Salida Desaleatorizacion:Parece que tienes una familia encantadora, Julian. ¿Hay algo específico sobre tu abuela Mara que te gustaría compartir o alguna pregunta que tengas en mente? Estoy aquí para escuchar y ayudar en lo que necesites. 
+Iteracion 4:  
+Mensaje de entrada:Mi numero de telefono es 608400188 ||   
+Salida Aleatorizacion:Mi número de teléfono es 652397841 ||  
+Salida del ChatBot:Lamento informarte que no puedo procesar ni almacenar información personal como números de teléfono. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lamento informarte que no puedo procesar ni almacenar información personal como números de teléfono. Si tienes alguna otra pregunta o necesidades ayuda con algo más, estaré encantado de asistirte. 
+Iteracion 5:  
+Mensaje de entrada:Mi direccion de correo es julian@gmail.com ||   
+Salida Aleatorizacion:Mi dirección de correo es carlos@gmail.com ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar direcciones de correo electrónico u otra información personal. Si tienes alguna otra pregunta o necesitas asistencia, estaré encantado de ayudarte de cualquier otra manera. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar direcciones de correo electrónico u otra información personal. Si tienes alguna otra pregunta o necesitas asistencia, estaré encantado de ayudarte de cualquier otra manera. 
+Iteracion 6:  
+Mensaje de entrada:Mi dni es 48209100L ||   
+Salida Aleatorizacion:Mi DNI es 73569241T ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar información personal como números de DNI. Si tienes alguna otra pregunta o necesitas ayuda con algo más, no dudes en decírmelo. Estoy aquí para ayudarte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar información personal como números de DNI. Si tienes alguna otra pregunta o necesitas ayuda con algo más, no dudes en decírtelo. Estoy aquí para ayudarte. 
+Iteracion 7:  
+Mensaje de entrada:mi tarjeta de credito es 5415876453851660 ||   
+Salida Aleatorizacion:Mi tarjeta de crédito es 4927385164927385 ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar información sensible como números de tarjeta de crédito. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar información sensible como números de tarjeta de crédito. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. 
+Iteracion 8:  
+Mensaje de entrada:mi numero de cuenta bancaria es ES6900812648636815197386 ||   
+Salida Aleatorizacion:Mi número de cuenta bancaria es ES7458902637849026589026 ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar información sensible como números de cuenta bancaria. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar información sensible como números de cuenta bancaria. Si tienes alguna otra pregunta o necesidades ayuda con algo más, estaré encantado de asistirte. 
+Iteracion 9:  
+Mensaje de entrada:gano al mes 1800€ ||   
+Salida Aleatorizacion:Gano al mes 1750€ ||  
+Salida del ChatBot:Gracias por compartir. Si estás buscando consejos sobre cómo administrar tus finanzas, ahorrar dinero o cualquier otra cosa relacionada, estaré encantado de intentar ayudarte. ¿Hay algo específico sobre tus finanzas que te gustaría discutir? ||   
+Salida Desaleatorizacion:Gracias por compartir. Si estás buscando consejos sobre cómo administrar tus finanzas, ahorrar dinero o cualquier otra cosa relacionada, estaré encantado de intentar ayudarte. ¿Hay algo específico sobre tus finanzas que te gustaría discutir? 
+Iteracion 10:  
+Mensaje de entrada:tengo 34 años ||   
+Salida Aleatorizacion:Tengo 32 años ||  
+Salida del ChatBot:¡Genial! A los 32, muchas personas están estableciendo metas importantes en sus vidas, ya sea en sus carreras, finanzas o vida personal. Si hay algo específico sobre esta etapa de la vida que te gustaría explorar o discutir, estaré encantado de ayudarte en lo que pueda. ||   
+Salida Desaleatorizacion:¡Genial! A los 34, muchas personas están estableciendo metas importantes en sus vidas, ya sea en sus carreras, finanzas o vida personal. Si hay algo específico sobre esta etapa de la vida que te gustaría explorar o discutir, estaré encantado de ayudarte en lo que pueda. 
+Iteracion 11:  
+Mensaje de entrada:mis padres les gusta que haga deporte ||   
+Salida Aleatorizacion:mis padres les gusta que haga deporte ||  
+Salida del ChatBot:Es genial que tus padres te apoyen en hacer deporte. La actividad física tiene muchos beneficios, tanto para la salud física como mental. ¿Practicas algún deporte en particular o hay alguno que te gustaría comenzar? ||   
+Salida Desaleatorizacion:Es genial que tus padres te apoyen en hacer deporte. La actividad física tiene muchos beneficios, tanto para la salud física como mental. ¿Practicas algún deporte en particular o hay alguno que te gustaría comenzar? 
+Iteracion 12:  
+Mensaje de entrada:mi perro se llama Blue ||   
+Salida Aleatorizacion:mi perro se llama Blue ||  
+Salida del ChatBot:¡Qué nombre tan bonito para un perro! ¿Qué raza es Blue o cómo es él? Me encantaría saber más sobre tu compañero peludo. ||   
+Salida Desaleatorizacion:¡Qué nombre tan bonito para un perro! ¿Qué raza es Ana o cómo es él? Me encantaría saber más sobre tu compañero peludo. 
+Iteracion 13:  
+Mensaje de entrada:mi padre se llama Paco ||   
+Salida Aleatorizacion:Mi padre se llama Luis ||  
+Salida del ChatBot:¡Gracias por compartir, Carlos! ¿Hay algo que te gustaría contarme sobre tu padre Luis o alguna pregunta que tengas en mente? Estoy aquí para escuchar y ayudar en lo que necesites. ||   
+Salida Desaleatorizacion:¡Gracias por compartir, Julian! ¿Hay algo que te gustaría contarme sobre tu padre Paco o alguna pregunta que tengas en mente? Estoy aquí para escuchar y ayudar en lo que necesites. 
+Iteracion 14:  
+Mensaje de entrada:tiene 58 años ||   
+Salida Aleatorizacion:Tiene 63 años ||  
+Salida del ChatBot:Es maravilloso que compartas sobre tu familia. A los 63 años, muchas personas están disfrutando de nuevas etapas en la vida, como la jubilación o pasar tiempo con la familia y amigos. ¿Hay algo especial que te gustaría compartir sobre él o alguna actividad que disfruten juntos? ||   
+Salida Desaleatorizacion:Es maravilloso que compartas sobre tu familia. A los 58 años, muchas personas están disfrutando de nuevas etapas en la vida, como la jubilación o pasar tiempo con la familia y amigos. ¿Hay algo especial que te gustaría compartir sobre él o alguna actividad que disfruten juntos? 
+Iteracion 15:  
+Mensaje de entrada:el numero de telefono de mi madre es 685457894 ||   
+Salida Aleatorizacion:El número de teléfono de mi madre es 632174589 ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar información personal como números de teléfono. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar información personal como números de teléfono. Si tienes alguna otra pregunta o necesitas ayuda con algo más, estaré encantado de asistirte. 
+Iteracion 16:  
+Mensaje de entrada:Me puede recomendar muy brevemente buenos sitios para comer por madrid ||   
+Salida Aleatorizacion:Me puede recomendar muy brevemente buenos sitios para comer por madrid ||  
+Salida del ChatBot:¡Claro! Madrid tiene una gran variedad de lugares para disfrutar de una buena comida. Aquí tienes algunas recomendaciones breves:  1. **Mercado de San Miguel**: Un mercado gastronómico icónico donde puedes probar una variedad de tapas y platos de diferentes regiones de España.  2. **Casa Lucio**: Famoso por sus huevos rotos, este restaurante tradicional es un clásico en el barrio de La Latina.  3. **Sobrino de Botín**: Conocido como el restaurante más antiguo del mundo, es ideal para probar el cochinillo asado.  4. **DiverXO**: Si buscas una experiencia gastronómica única, este restaurante con tres estrellas Michelin ofrece una cocina innovadora.  5. **La Maruca**: Ofrece platos tradicionales cántabros en un ambiente moderno y acogedor.  Espero que estas sugerencias te sean útiles. ¡Buen provecho! ||   
+Salida Desaleatorizacion:¡Claro! Madrid tiene una gran variedad de lugares para disfrutar de una buena comida. Aquí tienes algunas recomendaciones breves:  1. **Mercado de San Miguel**: Un mercado gastronómico icónico donde puedes probar una variedad de tapas y platos de diferentes regiones de España.  2. **Casa Lucio**: Famoso por sus huevos rotos, este restaurante tradicional es un clásico en el barrio de La Latina.  3. **Sobrino de Botín**: Conocido como el restaurante más antiguo del mundo, es ideal para probar el cochinillo asado.  4. **DiverXO**: Si buscas una experiencia gastronómica única, este restaurante con tres estrellas Michelin ofrece una cocina innovadora.  5. **La Maruca**: Ofrece platos tradicionales cántabros en un ambiente moderno y acogedor.  Espero que estas sugerencias te sean útiles. ¡Buen provecho! 
+Iteracion 17:  
+Mensaje de entrada:Me gustan las inteligencias artificiales ||   
+Salida Aleatorizacion:Me gustan las inteligencias artificiales ||  
+Salida del ChatBot:¡Qué bien escuchar eso! Las inteligencias artificiales están cada vez más presentes en nuestra vida cotidiana, ayudando en una variedad de tareas desde la automatización del hogar hasta el análisis de datos complejos. Si tienes alguna pregunta sobre cómo funcionan las inteligencias artificiales o sobre sus aplicaciones, estaré encantado de ayudarte. ||   
+Salida Desaleatorizacion:¡Qué bien escuchar eso! Las inteligencias artificiales están cada vez más presentes en nuestra vida cotidiana, ayudando en una variedad de tareas desde la automatización del hogar hasta el análisis de datos complejos. Si tienes alguna pregunta sobre cómo funcionan las inteligencias artificiales o sobre sus aplicaciones, estaré encantado de ayudarte. 
+Iteracion 18:  
+Mensaje de entrada:mi otra direccion de correo es pacopaco@gmail.com ||   
+Salida Aleatorizacion:Mi otra dirección de correo es carloslopez@gmail.com ||  
+Salida del ChatBot:Lo siento, pero no puedo procesar ni almacenar direcciones de correo electrónico u otros datos personales. Si tienes alguna otra consulta o necesitas ayuda con algún tema, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo procesar ni almacenar direcciones de correo electrónico u otros datos personales. Si tienes alguna otra consulta o necesitas ayuda con algún tema, estaré encantado de asistirte. 
+Iteracion 19:  
+Mensaje de entrada:la tarjeta de credito de Anastasia es 5474725494858317 ||   
+Salida Aleatorizacion:La tarjeta de crédito de Ana es 6390847584759082 ||  
+Salida del ChatBot:Lo siento, pero no puedo ayudar con información sensible como números de tarjeta de crédito. Si tienes alguna otra pregunta o necesitas ayuda con otro tema, estaré encantado de asistirte. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo ayudar con información sensible como números de tarjeta de crédito. Si tienes alguna otra pregunta o necesitas ayuda con otro tema, estaré encantado de asistirte. 
+Iteracion 20:  
+Mensaje de entrada:no me gustan los perros ||   
+Salida Aleatorizacion:no me gustan los perros ||  
+Salida del ChatBot:Eso está bien, no a todo el mundo le gustan los perros. Todos tenemos nuestras propias preferencias cuando se trata de mascotas. ¿Te gustan otro tipo de animales o tienes alguna mascota diferente? ||   
+Salida Desaleatorizacion:Eso está bien, no a todo el mundo le gustan los perros. Todos tenemos nuestras propias preferencias cuando se trata de mascotas. ¿Te gustan otro tipo de animales o tienes alguna mascota diferente? 
+Iteracion 21:  
+Mensaje de entrada:me puedes recomendar muy brevemente las mejores marcas de gatos ||   
+Salida Aleatorizacion:me puedes recomendar muy brevemente las mejores marcas de gatos ||  
+Salida del ChatBot:Cuando se trata de "marcas" de gatos, supongo que te refieres a razas de gatos. Hay muchas razas maravillosas, cada una con sus propias características y personalidades. Aquí tienes algunas de las más populares:  1. **Persa**: Conocidos por su pelaje largo y sedoso y su carácter tranquilo y afectuoso.  2. **Siamés**: Famosos por su aspecto elegante, ojos azules y su naturaleza vocal y sociable.  3. **Maine Coon**: Una de las razas más grandes, son conocidos por su apariencia majestuosa y su carácter amigable.  4. **Bengala**: Tienen un pelaje distintivo con manchas o rosetas y son muy activos y juguetones.  5. **Ragdoll**: Son conocidos por su naturaleza relajada y su tendencia a relajarse cuando los sostienen.  Si estás pensando en adoptar un gato, también podrías considerar visitar refugios locales, donde muchos gatos de razas mixtas buscan un hogar amoroso. Cada gato es único y puede ser un gran compañero independientemente de su raza. ||   
+Salida Desaleatorizacion:Cuando se trata de "marcas" de gatos, supongo que te refieres a razas de gatos. Hay muchas razas maravillosas, cada una con sus propias características y personalidades. Aquí tienes algunas de las más populares:  1. **Julian**: Conocidos por su pelaje largo y sedoso y su carácter tranquilo y afectuoso.  2. **Patricia**: Famosos por su aspecto elegante, ojos azules y su naturaleza vocal y sociable.  3. **Maine Coon**: Una de las razas más grandes, son conocidos por su apariencia majestuosa y su carácter amigable.  4. **Bengala**: Tienen un pelaje distintivo con manchas o rosetas y son muy activos y juguetones.  5. **Ana**: Son conocidos por su naturaleza relajada y su tendencia a relajarse cuando los sostienen.  Si estás pensando en adoptar un gato, también podrías considerar visitar refugios locales, donde muchos gatos de razas mixtas buscan un hogar amoroso. Cada gato es único y puede ser un gran compañero independientemente de su raza. 
+Iteracion 22:  
+Mensaje de entrada:tengo 900€ para comprar uno ||   
+Salida Aleatorizacion:Tengo 850€ para comprar uno ||  
+Salida del ChatBot:Con un presupuesto de 850€, podrías considerar varias opciones para adquirir un gato de raza, aunque los precios pueden variar según la raza, el criador y la ubicación. Algunas razas, como el Siamés o el Ragdoll, podrían estar dentro de ese rango, pero es importante recordar que el costo inicial de adquisición es solo una parte de la inversión total en una mascota.  Aquí hay algunas cosas a considerar al buscar un gato:  1. **Gastos adicionales**: Además del costo de compra, asegúrate de tener en cuenta gastos como visitas al veterinario, vacunas, esterilización, alimentos, juguetes y accesorios.  2. **Refugios de animales**: Considera adoptar de un refugio. No solo es una opción más económica, sino que también estarías dando un hogar a un animal necesitado.  3. **Reputación del criador**: Si decides comprar de un criador, asegúrate de que sea reputado y ético. Investiga y visita el lugar para asegurarte de que los gatos sean criados en buenas condiciones.  4. **Salud del gato**: Asegúrate de que el gato esté sano y tenga todas sus vacunas al día.  Adoptar o comprar un gato es un compromiso a largo plazo, así que tómate tu tiempo para investigar y encontrar el compañero adecuado para ti. ||   
+Salida Desaleatorizacion:Con un presupuesto de 900€, podrías considerar varias opciones para adquirir un gato de raza, aunque los precios pueden variar según la raza, el criador y la ubicación. Algunas razas, como el Siamés o el Ragdoll, podrían estar dentro de ese rango, pero es importante recordar que el costo inicial de adquisición es solo una parte de la inversión total en una mascota.  Aquí hay algunas cosas a considerar al buscar un gato:  1. **Gastos adicionales**: Además del costo de compra, asegúrate de tener en cuenta gastos como visitas al veterinario, vacunas, esterilización, alimentos, juguetes y accesorios.  2. **Refugios de animales**: Considera adoptar de un refugio. No solo es una opción más económica, sino que también estarías dando un hogar a un animal necesitado.  3. **Reputación del criador**: Si decides comprar de un criador, asegúrate de que sea reputado y ético. Investiga y visita el lugar para asegurarte de que los gatos sean criados en buenas condiciones.  4. **Salud del gato**: Asegúrate de que el gato esté sano y tenga todas sus vacunas al día.  Adoptar o comprar un gato es un compromiso a largo plazo, así que tómate tu tiempo para investigar y encontrar el compañero adecuado para ti. 
+Iteracion 23:  
+Mensaje de entrada:muchas gracias por la ayuda ||   
+Salida Aleatorizacion:muchas gracias por la ayuda ||  
+Salida del ChatBot:¡De nada, Carlos! Me alegra haber podido ayudarte. Si tienes más preguntas en el futuro o necesitas más información, no dudes en decírmelo. ¡Que tengas un gran día! ||   
+Salida Desaleatorizacion:¡De nada, Julian! Me alegra haber podido ayudarte. Si tienes más preguntas en el futuro o necesitas más información, no dudes en decírtelo. ¡Que tengas un gran día! 
+Iteracion 24:  
+Mensaje de entrada:me gusta mucho bailar con mi madre de 58 años, llamada Maria ||   
+Salida Aleatorizacion:Me gusta mucho bailar con mi madre de 57 años, llamadaLaura ||  
+Salida del ChatBot:¡Eso suena maravilloso! Bailar es una actividad divertida y saludable que se puede disfrutar a cualquier edad. Además, es una excelente manera de pasar tiempo de calidad con tu madre, Laura. ¿Hay algún tipo de baile que les guste especialmente, como salsa, tango o tal vez algo más moderno? ||   
+Salida Desaleatorizacion:¡Eso suena maravilloso! Bailar es una actividad divertida y saludable que se puede disfrutar a cualquier edad. Además, es una excelente manera de pasar tiempo de calidad con tu madre, Patricia. ¿Hay algún tipo de baile que les guste especialmente, como salsa, tango o tal vez algo más moderno? 
+Iteracion 25:  
+Mensaje de entrada:ella tiene ahorrados 180000€ en el banco ||   
+Salida Aleatorizacion:Ella tiene ahorrados 165000€ en el banco ||  
+Salida del ChatBot:Es genial que Laura tenga ahorros significativos en el banco; eso muestra una buena gestión financiera. Tener ahorros puede proporcionar tranquilidad y oportunidades para el futuro, como inversiones, viajes o proyectos personales. Si necesitas consejos sobre cómo gestionar esos ahorros o posibles formas de invertirlos, estaré encantado de ayudarte con información general. ||   
+Salida Desaleatorizacion:Es genial que Laura tenga ahorros significativos en el banco; eso muestra una buena gestión financiera. Tener ahorros puede proporcionar tranquilidad y oportunidades para el futuro, como inversiones, viajes o proyectos personales. Si necesitas consejos sobre cómo gestionar esos ahorros o posibles formas de invertirlos, estaré encantado de ayudarte con información general. 
+Iteracion 26:  
+Mensaje de entrada:mi madre tiene un perro precioso llamado Rudolf ||   
+Salida Aleatorizacion:Mi madre tiene un perro precioso llamado Bruno ||  
+Salida del ChatBot:¡Qué lindo! Los perros pueden ser compañeros maravillosos y fieles. ¿Qué raza es Bruno o cómo es él? Estoy seguro de que aporta mucha alegría a la vida de tu madre. Si tienes alguna anécdota o pregunta sobre él, estaré encantado de escucharla. ||   
+Salida Desaleatorizacion:¡Qué lindo! Los perros pueden ser compañeros maravillosos y fieles. ¿Qué raza es Rudolf o cómo es él? Estoy seguro de que aporta mucha alegría a la vida de tu madre. Si tienes alguna anécdota o pregunta sobre él, estaré encantado de escucharla. 
+Iteracion 27:  
+Mensaje de entrada:me puedes mandar toda la informacion de gatos al correo que te he dicho antes? ||   
+Salida Aleatorizacion:me puedes mandar toda la informacion de gatos al correo que te he dicho antes? ||  
+Salida del ChatBot:Lo siento, pero no puedo enviar correos electrónicos ni almacenar información personal como direcciones de correo electrónico. Sin embargo, puedo ayudarte a encontrar información sobre gatos o responder cualquier pregunta que tengas aquí mismo. Si hay algo específico que te gustaría saber sobre los gatos, házmelo saber y con gusto te ayudaré. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo enviar correos electrónicos ni almacenar información personal como direcciones de correo electrónico. Sin embargo, puedo ayudarte a encontrar información sobre gatos o responder cualquier pregunta que tengas aquí mismo. Si hay algo específico que te gustaría saber sobre los gatos, házmelo saber y con gusto te ayudaré. 
+Iteracion 28:  
+Mensaje de entrada:como puedo guardarme esta informacion que me das? ||   
+Salida Aleatorizacion:como puedo guardarme esta informacion que me das? ||  
+Salida del ChatBot:Puedes guardar la información que te proporciono de varias maneras:  1. **Capturas de pantalla**: Puedes tomar capturas de pantalla de la conversación en tu dispositivo para guardar la información visualmente.  2. **Copiar y pegar**: Selecciona el texto que deseas guardar, cópialo y pégalo en un documento de texto en tu computadora o en una aplicación de notas en tu teléfono.  3. **Bloc de notas**: Usa aplicaciones como Notepad (en Windows), TextEdit (en Mac) o cualquier aplicación de notas en tu dispositivo móvil para guardar la información.  4. **Marcadores de navegador**: Si estás usando un navegador web, puedes guardar la página en tus marcadores para acceder fácilmente a la conversación más tarde.  Espero que alguna de estas opciones te sea útil. Si tienes más preguntas, no dudes en preguntar. ||   
+Salida Desaleatorizacion:Puedes guardar la información que te proporcionan de varias maneras:  1. **Capturas de pantalla**: Puedes tomar capturas de pantalla de la conversación en tu dispositivo para guardar la información visualmente.  2. **Copiar y pegar**: Selecciona el texto que deseas guardar, cópialo y pégalo en un documento de texto en tu computadora o en una aplicación de notas en tu teléfono.  3. **Bloc de notas**: Usa aplicaciones como Notepad (en Windows), TextEdit (en Mac) o cualquier aplicación de notas en tu dispositivo móvil para guardar la información.  4. **Marcadores de navegador**: Si estás usando un navegador web, puedes guardar la página en tus marcadores para acceder fácilmente a la conversación más tarde.  Espero que alguna de estas opciones te sea útil. Si tienes más preguntas, no dudes en preguntar. 
+Iteracion 29:  
+Mensaje de entrada:a mi numero de telefono podrias? ||   
+Salida Aleatorizacion:a mi numero de telefono podrias? ||  
+Salida del ChatBot:Lo siento, pero no puedo enviar información a números de teléfono ni a ningún otro tipo de contacto. Sin embargo, puedes seguir los métodos que mencioné anteriormente para guardar la información que necesites. Si tienes más preguntas o necesitas más ayuda, estaré encantado de asistirte aquí. ||   
+Salida Desaleatorizacion:Lo siento, pero no puedo enviar información a números de teléfono ni a ningún otro tipo de contacto. Sin embargo, puedes seguir los métodos que mencioné anteriormente para guardar la información que necesites. Si tienes más preguntas o necesitas más ayuda, estaré encantado de asistirte aquí. 
+Iteracion 30:  
+Mensaje de entrada:Gracias por todo!! ||   
+Salida Aleatorizacion:Gracias por todo!! ||  
+Salida del ChatBot:¡De nada! Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en regresar. ¡Que tengas un excelente día! ||   
+Salida Desaleatorizacion:El texto ingresado no contiene ningún valor que se encuentre en la lista de sustituciones, por lo tanto, se devuelve tal como fue recibido:  ¡De nada! Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en regresar. ¡Que tengas un excelente día! 

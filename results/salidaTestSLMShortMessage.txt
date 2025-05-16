@@ -1,0 +1,253 @@
+Prueba de Rendimiento del SLM Qwen2.5 test corto.
+Mensaje con el que se realiza la pueba: 
+
+Iteracion 1: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 2: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿En qué puedo ayudarte hoy?
+Iteracion 3: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:Hola Juan, ¿cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:Hola Diego, ¿cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 4: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿Hay algo en lo que te pueda ayudar hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿Hay algo en lo que te pueda ayudar hoy?
+Iteracion 5: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 6: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 7: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 8: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 9: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 10: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 11: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 12: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Carlos || 
+ Salida del ChatBot:¡Hola Carlos! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 13: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿En qué puedo ayudarte hoy?
+Iteracion 14: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Carlos || 
+ Salida del ChatBot:¡Hola, Carlos! ¿Cómo estás? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás?
+Iteracion 15: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 16: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 17: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 18: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 19: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 20: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás?
+Iteracion 21: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás?
+Iteracion 22: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 23: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 24: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 25: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás?
+Iteracion 26: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 27: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 28: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 29: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan Pedro || 
+ Salida del ChatBot:¡Hola Juan Pedro! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego Pedro! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 30: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 31: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 32: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 33: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 34: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 35: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan Pedro || 
+ Salida del ChatBot:¡Hola Juan Pedro! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego Pedro! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 36: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamoJuan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 37: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 38: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 39: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿En qué puedo ayudarte hoy?
+Iteracion 40: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 41: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
+Iteracion 42: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 43: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 44: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 45: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola, Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola, Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 46: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 47: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 48: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Carlos || 
+ Salida del ChatBot:¡Hola Carlos! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 49: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿En qué puedo ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿En qué puedo ayudarte hoy?
+Iteracion 50: 
+Mensaje de entrada:Hola me llamo Diego ||
+ Salida Aleatorizacion:Hola me llamo Juan || 
+ Salida del ChatBot:¡Hola Juan! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy? || 
+ Salida Desaleatorizacion:¡Hola Diego! ¿Cómo estás? ¿Hay algo en lo que pueda ayudarte hoy?
